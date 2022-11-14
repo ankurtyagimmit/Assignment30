@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>box</title>
+    <style>
+        .main {
+
+            text-align: center;
+            display: flexbox;
+
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+
+            background-color: red;
+
+            border: 10px solid black;
+            border-radius: 120px;
+
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .ovl {
+            height: 200px;
+            width: 100px;
+            background: green;
+            border-radius: 50%;
+            border-radius: 50%;
+            border-radius: 50%;
+
+        }
+
+        .Tri {
+            height: 0;
+            width: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid yellow;
+        }
+
+        .Triangle_side {
+            height: 0px;
+            width: 0px;
+            border-top: 100px solid blue;
+            border-right: 100px solid transparent;
+        }
+
+        .Rectangle_side {
+            height: 100px;
+            width: 200px;
+            background-color: aqua;
+
+
+        }
+
+        .Parallio_side {
+            height: 75px;
+            width: 150px;
+            background-color: blueviolet;
+            transform: skew(30deg);
+            transform: skew(30deg);
+
+        }
+
+        .Trapezoid_side {
+            height: 0;
+            width: 100px;
+            border-bottom: 100px solid green;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+
+
+        }
+
+        .cone {
+            height: 0;
+            width: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 100px solid yellow;
+            border-radius: 50%;
+            border-radius: 50%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">Box</div>
+        <hr>
+        <br>
+        <div class="ovl">Oval</div>
+        <hr>
+        <br>
+        <div class="Tri">Triangle</div>
+        <hr>
+        <br>
+        <div class="Triangle_side">triangle</div>
+        <hr>
+        <br>
+        <div class="Rectangle_side">Rectangle</div>
+        <hr>
+        <br>
+        <div class="Parallio_side">Paralleogram</div>
+        <hr>
+        <br>
+        <div class="Trapezoid_side">Trapezoid</div>
+        <hr>
+        <br>
+        <div class="cone">cone</div>
+    </div>
+
+
+</body>
+
+</html>
